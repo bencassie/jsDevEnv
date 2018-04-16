@@ -13,6 +13,6 @@ app.listen(port, err => {
     if (err) {
         console.error(err);
     } else {
-        open('http://localhost' + port);
+        open('http://localhost:' + port);
     }
 })
